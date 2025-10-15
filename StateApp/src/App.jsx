@@ -1,4 +1,5 @@
 import {userState} from "react";
+import App from "../../JumpApp/src/App";
 function Counter(){
   const [count, setCount]=userState(0);
   return(
@@ -10,3 +11,4 @@ function Counter(){
     </div>
   )
 }
+export default App
